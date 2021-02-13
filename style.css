@@ -23,5 +23,14 @@ body{
     margin-left: 2em;
 }
 
+#body-portion{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header{
+    border-bottom: red 2px solid;
+}
 
 
