@@ -1,3 +1,27 @@
 body{
     box-sizing: border-box;
 }
+
+#top{
+    background-image: url('images/con-main-pic.jpg');
+    background-position:center;
+    background-size: cover;
+  height: 100vh;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    
+}
+
+#top-words{
+    border: 1px solid blue;
+    margin-left: 0.5em;
+    width: 7em;
+}
+
+#button-holder{
+    margin-left: 2em;
+}
+
+
+
