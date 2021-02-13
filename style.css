@@ -44,8 +44,15 @@ body{
 #image-section{
     display: flex;
     flex-direction: column;
-  align-items: center;
+    align-items: center;
+
     
+}
+
+.images{
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
 }
 
 
