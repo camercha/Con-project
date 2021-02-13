@@ -27,10 +27,25 @@ body{
     display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  margin-top: 2em;
 }
 
 #header{
     border-bottom: red 2px solid;
+    margin-bottom: 1em;
+}
+
+#button-holder2{
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+#image-section{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    
 }
 
 
