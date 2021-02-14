@@ -131,16 +131,19 @@ bottom: 38px;
 #fname{
     width: 200px;
     margin-bottom: 20px;
+    border: 2px solid red;
 }
 
 #email{
     width: 300px;
     margin-bottom: 20px;
+    border: 2px solid red;
 }
 
 #subject{
     width: 400px;
     margin-bottom: 20px;
+    border: 2px solid red;
 }
 
 
