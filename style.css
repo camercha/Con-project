@@ -28,7 +28,8 @@ body{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 2em;
+  
+  background-color: #FFDDD2;
 }
 
 #header{
@@ -45,14 +46,51 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+background-color: #83C5BE;
     
+}
+
+#image-section h2{
+    margin-bottom: 20px;
 }
 
 .images{
     width: 18em;
     height: 18em;
     border-radius: 50%;
+}
+
+.images-holder{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.toronto{
+    background-color: red;
+    position:absolute;
+    left: 90px;
+    bottom: 25px;
+    padding: 0.7em;
+    border-radius: 25px;
+    
+}
+
+.north-york{
+    background-color: red;
+    position:absolute;
+    left: 75px;
+    bottom: 25px;
+    padding: 0.7em;
+    border-radius: 25px;
+}
+
+.mississauga{
+    background-color: red;
+    position:absolute;
+    left: 65px;
+    bottom: 25px;
+    padding: 0.7em;
+    border-radius: 25px;
 }
 
 
