@@ -2,6 +2,10 @@ body{
     box-sizing: border-box;
 }
 
+
+#nav{
+    font-family: 'Roboto Slab', serif;
+}
 #top{
     background-image: url('images/con-main-pic.jpg');
     background-position:center;
@@ -12,12 +16,16 @@ body{
     flex-direction: column;
    
     
+   
+    
 }
 
 #top-words{
-    border: 1px solid blue;
     margin-left: 0.5em;
     width: 7em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    background-color: rgba(145, 255, 0, 0.404);
 }
 
 #button-holder{
@@ -31,7 +39,7 @@ body{
   text-align: center;
   padding-bottom: 40px;
 padding-top: 40px;
-  
+font-family: 'Roboto Slab', serif;
   background-color: #FFDDD2;
 }
 
@@ -58,7 +66,7 @@ padding-top: 40px;
 background-color: #83C5BE;
 padding-bottom: 50px;
 padding-top: 40px;
-    
+font-family: 'Roboto Slab', serif;
 }
 
 #image-section h2{
@@ -113,6 +121,7 @@ padding-top: 40px;
     text-align: center;
     background-color: #FFDDD2;
     padding-bottom: 40px;
+    font-family: 'Roboto Slab', serif;
 
 }
 .lone-image{
@@ -128,6 +137,7 @@ bottom: 38px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto Slab', serif;
 }
 
 #contact-section h1{
@@ -138,19 +148,19 @@ bottom: 38px;
 #fname{
     width: 50%;
     margin-bottom: 20px;
-    border: 2px solid red;
+  
 }
 
 #email{
     width: 50%;
     margin-bottom: 20px;
-    border: 2px solid red;
+ 
 }
 
 #subject{
     width: 80%;
     margin-bottom: 20px;
-    border: 2px solid red;
+   
 }
 
 
@@ -163,6 +173,7 @@ footer{
     padding: 10px;
     background-color: black;
     color: white;
+    font-family: 'Roboto Slab', serif;
 }
 
 
@@ -192,21 +203,30 @@ footer{
        justify-content: center;
     }
 
+    #body-portion{
+        font-size: 2em;
+      
+    }
+
+    #describe-section{
+        font-size: 1.7em;
+    }
+
     .images{
         width: 19em;
         height: 20em;
     }
 
     .toronto{
-        left: 97px;
+        left: 90px;
     }
 
     .north-york{
-        left: 85px;
+        left: 70px;
     }
 
     .mississauga{
-        left: 70px;
+        left: 60px;
     }
 
     .images-holder{
