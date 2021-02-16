@@ -26,9 +26,10 @@ body{
     width: 7em;
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
-    background-color: rgba(145, 255, 0, 0.404);
+    background-color: rgba(0, 132, 255, 0.61);
     border-radius: 25px;
     padding-left: 10px;
+    color: white;
 }
 
 #button-holder{
@@ -203,10 +204,23 @@ footer{
 
 @media(min-width:1024px){
     
-    .btn {
+    .top-btn1 {
         font-size: 1.5em;
+       margin-left: 10px;
     }
     
+.middle-btn2{
+    font-size: 1.2em;
+}
+
+.lower-btn3{
+    font-size: 1.2em;
+}
+
+.lowest-btn4{
+    font-size: 2em;
+}
+
     #image-section{
         flex-direction: row;
        justify-content: center;
@@ -231,6 +245,7 @@ footer{
     .images{
         width: 19em;
         height: 20em;
+  
     }
 
     .toronto{
