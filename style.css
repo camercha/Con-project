@@ -5,6 +5,7 @@ body{
 
 #nav{
     font-family: 'Roboto Slab', serif;
+    
 }
 #top{
     background-image: url('images/con-main-pic.jpg');
@@ -30,6 +31,7 @@ body{
 
 #button-holder{
     margin-left: 2em;
+    
 }
 
 #body-portion{
@@ -40,7 +42,7 @@ body{
   padding-bottom: 40px;
 padding-top: 40px;
 font-family: 'Roboto Slab', serif;
-  background-color: #FFDDD2;
+  background-color: #F0F3BD;
 }
 
 #header{
@@ -55,7 +57,7 @@ font-family: 'Roboto Slab', serif;
 
 #third-section{
     text-align: center;
-    background-color: #83C5BE;
+    background-color: #00A896;
     padding-top: 20px;
 }
 
@@ -63,7 +65,7 @@ font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-background-color: #83C5BE;
+background-color: #00A896;
 padding-bottom: 50px;
 padding-top: 40px;
 font-family: 'Roboto Slab', serif;
@@ -85,7 +87,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .toronto{
-    background-color: red;
+    background-color: #F0F3BD;
     position:absolute;
     left: 90px;
     bottom: 25px;
@@ -95,7 +97,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .north-york{
-    background-color: red;
+    background-color: #F0F3BD;
     position:absolute;
     left: 75px;
     bottom: 25px;
@@ -104,7 +106,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 .mississauga{
-    background-color: red;
+    background-color: #F0F3BD;
     position:absolute;
     left: 65px;
     bottom: 25px;
@@ -119,7 +121,7 @@ font-family: 'Roboto Slab', serif;
     align-items: center;
     position: relative;
     text-align: center;
-    background-color: #FFDDD2;
+    background-color: #F0F3BD;
     padding-bottom: 40px;
     font-family: 'Roboto Slab', serif;
 
@@ -133,7 +135,7 @@ bottom: 38px;
 }
 
 #contact-section{
-    background-color: #006D77;
+    background-color: #02C39A;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -204,12 +206,12 @@ footer{
     }
 
     #body-portion{
-        font-size: 2em;
+        font-size: 1.5em;
       
     }
 
     #describe-section{
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     .images{
